@@ -27,7 +27,7 @@ NOTE: 底下所有安裝過程皆以cape使用者身分進行
 ## Install KVM
 
 1. 下載自動化安裝腳本 => [kvm-qemu.sh](https://github.com/doomedraven/Tools/blob/master/Virtualization/kvm-qemu.sh)  
-2. 將腳本中的 <WOOT> 更改為任意 4 chars，e.g. 0A08
+2. 將腳本中的 `<WOOT>` 更改為任意 4 chars，e.g. 0A08
 3. 安裝 KVM => `sudo ./kvm-qemu.sh all cape | tee kvm-qemu.log`
 4. 重新開機
 3. 安裝 Virtual Machine Manager => `sudo ./kvm-qemu.sh virtmanager cape | tee kvm-qemu-virt-manager.log`
