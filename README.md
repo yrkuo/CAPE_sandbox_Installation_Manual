@@ -55,6 +55,7 @@ IMPORTANTT!!! 網路設置為hostonly的情況下，guest是沒有連外網的�
 
 1. 變更路徑 => `cd /opt/CAPEv2/`
 2. 執行CAPE => `sudo -u cape poetry run python3 cuckoo.py`
+3. 提交欲分析的檔案 => `sudo -u cape poetry run python3 ./utils/submit.py /path/to/file`
 
 
 
